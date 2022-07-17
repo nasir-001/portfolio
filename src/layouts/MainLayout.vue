@@ -1,12 +1,12 @@
 <template>
   <q-layout view="hHh lpR fFf">
-    <div class="row tw-justify-center">
+    <div class="row tw-justify-center tw-bg-primary-bg-color">
       <div class="col-12 col-xl-9">
-        <q-header class="tw-bg-primary-bg-color tw-h-24 shadow-8">
+        <q-header class="tw-bg-primary-bg-color tw-h-24" elevated>
           <q-toolbar class="tw-px-10">
             <div class="">
               <q-img
-                class="tw-w-14 tw-mt-5 tw-rounded-full"
+                class="tw-w-14 tw-mt-5 tw-rounded-full tw-border-2 tw-border-gray-300"
                 src="~assets/img/avatar.jpg"
               />
             </div>
@@ -45,39 +45,27 @@
           v-model="leftDrawerOpen"
           show-if-above
           :width="width"
-          bordered
+          class="tw-bg-primary-bg-color"
           side="left"
         >
-          <q-list>
-            <q-item-label
-              header
-            >
-              <div class="tw-bottom-0 tw-fixed">
-                links
-              </div>
-            </q-item-label>
-
-            
-          </q-list>
+          <div class="tw-bottom-0 tw-fixed tw-w-full">
+            <div class="tw-text-right">
+              links
+            </div>
+          </div>
         </q-drawer>
         <q-drawer
           v-model="rightDrawerOpen"
           show-if-above
           :width="width"
-          bordered
+          class="tw-bg-primary-bg-color"
           side="right"
         >
-          <q-list>
-            <q-item-label
-              header
-            >
-              <div class="tw-bottom-0 tw-fixed">
-                links
-              </div>
-            </q-item-label>
-
-            
-          </q-list>
+          <div class="tw-bottom-0 tw-fixed tw-w-full">
+            <div class="tw-text-left">
+              links
+            </div>
+          </div>
         </q-drawer>
 
         <q-page-container>
