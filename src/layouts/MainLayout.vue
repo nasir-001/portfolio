@@ -1,8 +1,8 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh lpR fFf">
     <div class="row tw-justify-center">
       <div class="col-12 col-xl-9">
-        <div class="tw-bg-primary-bg-color tw-h-24 shadow-8">
+        <q-header class="tw-bg-primary-bg-color tw-h-24 shadow-8">
           <q-toolbar class="tw-px-10">
             <div class="">
               <q-img
@@ -39,10 +39,31 @@
               @click="toggleLeftDrawer"
             />
           </q-toolbar>
-        </div>
+        </q-header>
 
         <q-drawer
           v-model="leftDrawerOpen"
+          show-if-above
+          :width="width"
+          bordered
+          side="left"
+        >
+          <q-list>
+            <q-item-label
+              header
+            >
+              <div class="tw-bottom-0 tw-fixed">
+                links
+              </div>
+            </q-item-label>
+
+            
+          </q-list>
+        </q-drawer>
+        <q-drawer
+          v-model="rightDrawerOpen"
+          show-if-above
+          :width="width"
           bordered
           side="right"
         >
@@ -50,7 +71,9 @@
             <q-item-label
               header
             >
-              Essential Links
+              <div class="tw-bottom-0 tw-fixed">
+                links
+              </div>
             </q-item-label>
 
             
@@ -62,26 +85,38 @@
         </q-page-container>
       </div>
     </div>
+
   </q-layout>
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import { computed, defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'MainLayout',
 
-  components: {
-    
-  },
-
   setup () {
     const leftDrawerOpen = ref(false)
+    const rightDrawerOpen = ref(false)
+    const $q = useQuasar()
+
+    const width = computed(() => {
+      return $q.screen.width <= 428 
+      ? 30 : $q.screen.width <= 1366 
+      ? 50 : $q.screen.width <= 1440
+      ? 80 : $q.screen.width >=  1910 ? 300 : 50
+    })
 
     return {
       leftDrawerOpen,
+      rightDrawerOpen,
+      width,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
+      },
+      toggleRightDrawer () {
+        rightDrawerOpen.value = !rightDrawerOpen.value
       }
     }
   }
