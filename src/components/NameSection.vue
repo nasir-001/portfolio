@@ -1,73 +1,28 @@
 <template>
-  <div class="tw-text-2xl">
-    {{ typeValue }}
+  <div class="tw-pt-44 tw-pl-24">
+    <VueWriter class="tw-text-3xl tw-text-primary-text-color" :array="['Hi, my name is']" :eraseSpeed="50" :typeSpeed="100" :delay="5000" />
+    <div class="tw-pt-12 tw-font-extrabold tw-text-gray-400 tw-text-8xl">
+      Nasir Lawal
+    </div>
+    <div class="tw-pt-2 tw-font-extrabold tw-text-gray-400 tw-text-8xl">
+      Software engineer
+    </div>
   </div>
 </template>
 
 <script>
 import { defineComponent, ref } from 'vue'
+import VueWriter from 'vue-writer';
 
 export default defineComponent({
   name: 'NameSection',
+  components: {
+    VueWriter
+  },  
 
   setup() {
-    const typeValue = ref('')
-    const typeStatus = ref(false)
-    const typeArray = ref(['fun', 'awesome', 'a journey', 'a life'])
-    const typingSpeed = ref(200)
-    const erasingSpeed = ref(100)
-    const newTextDelay = ref(2000)
-    const typeArrayIndex = ref(0)
-    const charIndex = ref(0)
-
-    const eraseText = () => {
-      if (charIndex.value > 0) {
-        if (!typeStatus.value)
-          typeStatus.value = true
-
-        typeValue.value = typeArray.value[typeArrayIndex.value].substring(0, charIndex.value -1)
-        charIndex.value -= 1 
-
-        setTimeout(eraseText, erasingSpeed.value)
-      } else {
-        typeStatus.value = false
-        typeArrayIndex.value += 1
-
-        if (typeArrayIndex.value >= typeArray.value.length) {
-          typeArrayIndex.value = 0
-
-          setTimeout(typeText, typingSpeed.value + 1000)
-        }
-      }
-    }
-    eraseText()
-
-    const typeText = () => {
-      if (charIndex.value < typeArray.value[typeArrayIndex.value].length) {
-        if (!typeStatus.value)
-          typeStatus.value = true
-
-        typeValue.value += typeArray.value[typeArrayIndex.value].charAt(charIndex.value)
-        charIndex.value += 1
-
-        setTimeout(typeText, typingSpeed.value)
-      } else {
-        typeStatus.value = false
-        setTimeout(eraseText, newTextDelay.value)
-      }
-    }
-    typeText()
-    setTimeout(typeText(), newTextDelay.value + 200)
-
     return {
-      typeValue,
-      typeStatus,
-      typeArray,
-      typingSpeed, 
-      erasingSpeed,
-      newTextDelay,
-      typeArrayIndex,
-      charIndex
+      
     }
   },
 })
