@@ -50,7 +50,16 @@
         >
           <div class="tw-bottom-0 tw-fixed tw-w-full">
             <div class="tw-text-right">
-              links
+              <div class="tw-mt-6">
+                <q-icon size="sm" class="tw-text-primary-text-color" name="mail_outline" />
+              </div>
+              <div class="tw-mt-6">
+                <q-icon size="sm" class="tw-text-primary-text-color" name="fa-brands fa-github" />
+              </div>
+              <div class="tw-mt-6">
+                <q-icon size="sm" class="tw-text-primary-text-color" name="fa-brands fa-linkedin" />
+              </div>
+              <div class="tw-h-24 tw-mt-8 tw-border-r tw-border-gray-300 tw-mr-2.5"></div>
             </div>
           </div>
         </q-drawer>
@@ -62,9 +71,10 @@
           side="right"
         >
           <div class="tw-bottom-0 tw-fixed tw-w-full">
-            <div class="tw-text-left">
-              links
+            <div class="tw-text-left tw-text-primary-text-color vertical tw-mb-40 tw-mr-7">
+              <a href="mailto:nasirlawal001@gmail.com">nasirlawal001@gmail.com</a>
             </div>
+            <div class="tw-h-24 tw-mt-8 tw-border-l tw-border-gray-300 tw-ml-2.5"></div>
           </div>
         </q-drawer>
 
@@ -110,3 +120,10 @@ export default defineComponent({
   }
 })
 </script>
+
+
+<style scoped>
+.vertical{
+  -webkit-transform: rotate(90deg);
+}
+</style>
