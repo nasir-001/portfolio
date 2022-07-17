@@ -51,13 +51,19 @@
           <div class="tw-bottom-0 tw-fixed tw-w-full">
             <div class="tw-text-right">
               <div class="tw-mt-6">
-                <q-icon size="sm" class="tw-text-primary-text-color" name="mail_outline" />
+                <a href="mailto:nasirlawal001@gmail.com">
+                  <q-icon size="sm" class="tw-text-primary-text-color" name="mail_outline" />
+                </a>
               </div>
               <div class="tw-mt-6">
-                <q-icon size="sm" class="tw-text-primary-text-color" name="fa-brands fa-github" />
+                <a href="https://github.com/nasir-001" target="_blank" rel="noopener noreferrer">
+                  <q-icon size="sm" class="tw-text-primary-text-color" name="fa-brands fa-github" />
+                </a>
               </div>
               <div class="tw-mt-6">
-                <q-icon size="sm" class="tw-text-primary-text-color" name="fa-brands fa-linkedin" />
+                <a href="https://www.linkedin.com/in/nasir-lawal-302b581b1/" target="_blank" rel="noopener noreferrer">
+                  <q-icon size="sm" class="tw-text-primary-text-color" name="fa-brands fa-linkedin" />
+                </a>
               </div>
               <div class="tw-h-24 tw-mt-8 tw-border-r tw-border-gray-300 tw-mr-2.5"></div>
             </div>
@@ -71,7 +77,7 @@
           side="right"
         >
           <div class="tw-bottom-0 tw-fixed tw-w-full">
-            <div class="tw-text-left tw-text-primary-text-color vertical tw-mb-40 tw-mr-7">
+            <div class="tw-text-left tw-text-primary-text-color vertical">
               <a href="mailto:nasirlawal001@gmail.com">nasirlawal001@gmail.com</a>
             </div>
             <div class="tw-h-24 tw-mt-8 tw-border-l tw-border-gray-300 tw-ml-2.5"></div>
@@ -124,6 +130,6 @@ export default defineComponent({
 
 <style scoped>
 .vertical{
-  -webkit-transform: rotate(90deg);
+  writing-mode: vertical-lr;
 }
 </style>
