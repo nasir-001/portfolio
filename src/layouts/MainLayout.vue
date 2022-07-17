@@ -1,111 +1,84 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
+    <div class="row tw-justify-center">
+      <div class="col-12 col-xl-9">
+        <div class="tw-bg-primary-bg-color tw-h-24 shadow-8">
+          <q-toolbar class="tw-px-10">
+            <div class="">
+              <q-img
+                class="tw-w-14 tw-mt-5 tw-rounded-full"
+                src="~assets/img/avatar.jpg"
+              />
+            </div>
+            <q-space />
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
+            <div class="tw-mt-4 tw-mx-4">
+              <span class="tw-text-primary-text-color">01.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">about</span>
+            </div>
+            <div class="tw-mt-4 tw-mx-4">
+              <span class="tw-text-primary-text-color">02.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">experience</span>
+            </div>
+            <div class="tw-mt-4 tw-mx-4">
+              <span class="tw-text-primary-text-color">03.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">projects</span>
+            </div>
+            <div class="tw-mt-4 tw-mx-4">
+              <span class="tw-text-primary-text-color">04.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
+            </div>
+            <div class="tw-mt-4 tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
+              <q-btn flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+            </div>
 
-        <div>Quasar v{{ $q.version }}</div>
-      </q-toolbar>
-    </q-header>
+            <q-btn
+              flat
+              dense
+              round
+              color="info"
+              icon="menu"
+              class="sm:tw-hidden"
+              aria-label="Menu"
+              @click="toggleLeftDrawer"
+            />
+          </q-toolbar>
+        </div>
 
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
-      <q-list>
-        <q-item-label
-          header
+        <q-drawer
+          v-model="leftDrawerOpen"
+          bordered
+          side="right"
         >
-          Essential Links
-        </q-item-label>
+          <q-list>
+            <q-item-label
+              header
+            >
+              Essential Links
+            </q-item-label>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
+            
+          </q-list>
+        </q-drawer>
 
-    <q-page-container>
-      <router-view />
-    </q-page-container>
+        <q-page-container>
+          <router-view />
+        </q-page-container>
+      </div>
+    </div>
   </q-layout>
 </template>
 
 <script>
 import { defineComponent, ref } from 'vue'
-import EssentialLink from 'components/EssentialLink.vue'
-
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-]
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    
   },
 
   setup () {
     const leftDrawerOpen = ref(false)
 
     return {
-      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
