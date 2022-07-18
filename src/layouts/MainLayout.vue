@@ -3,7 +3,7 @@
     <div class="row tw-justify-center tw-bg-primary-bg-color">
       <div class="col-12 col-xl-9">
         <q-header class="tw-bg-primary-bg-color tw-h-24" elevated>
-          <q-toolbar class="md:tw-px-10">
+          <q-toolbar class="lg:tw-px-10">
             <div class="">
               <q-img
                 class="tw-w-14 tw-mt-5 tw-rounded-full tw-border-2 tw-border-gray-300"
@@ -11,20 +11,20 @@
               />
             </div>
             <q-space />
-            <div class="tw-hidden sm:tw-flex">
-              <div class="tw-mt-4 tw-mx-4">
+            <div class="tw-hidden sm:tw-flex tw-mt-2">
+              <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
                 <span class="tw-text-primary-text-color">01.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">about</span>
               </div>
-              <div class="tw-mt-4 tw-mx-4">
+              <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
                 <span class="tw-text-primary-text-color">02.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">experience</span>
               </div>
-              <div class="tw-mt-4 tw-mx-4">
+              <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
                 <span class="tw-text-primary-text-color">03.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">projects</span>
               </div>
-              <div class="tw-mt-4 tw-mx-4">
+              <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
                 <span class="tw-text-primary-text-color">04.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
               </div>
-              <div class="tw-mt-4 tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
+              <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
                 <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
               </div>
             </div>
@@ -47,6 +47,7 @@
           v-model="leftDrawerOpen"
           show-if-above
           :width="width"
+          :breakpoint="100"
           class="tw-bg-primary-bg-color"
           side="left"
         >
@@ -76,6 +77,7 @@
           v-model="rightDrawerOpen"
           show-if-above
           :width="width"
+          :breakpoint="100"
           class="tw-bg-primary-bg-color"
           side="right"
         >
@@ -91,6 +93,7 @@
           v-model="rightDrawerOpen"
           show-if-above
           :width="width"
+          :breakpoint="100"
           class="tw-bg-primary-bg-color"
           side="right"
         >
