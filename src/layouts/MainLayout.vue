@@ -13,16 +13,16 @@
             <q-space />
             <div class="tw-hidden sm:tw-flex tw-mt-2">
               <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
-                <span class="tw-text-primary-text-color">01.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">about</span>
+                <span class="tw-text-primary-text-color">01.</span><span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">about</span>
               </div>
               <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
-                <span class="tw-text-primary-text-color">02.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">experience</span>
+                <span class="tw-text-primary-text-color">02.</span><span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">experience</span>
               </div>
               <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
-                <span class="tw-text-primary-text-color">03.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">projects</span>
+                <span class="tw-text-primary-text-color">03.</span><span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">projects</span>
               </div>
               <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
-                <span class="tw-text-primary-text-color">04.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
+                <span class="tw-text-primary-text-color">04.</span><span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
               </div>
               <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
                 <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
@@ -90,22 +90,6 @@
         </q-drawer>
 
         <q-drawer
-          v-model="rightDrawerOpen"
-          show-if-above
-          :width="width"
-          :breakpoint="100"
-          class="tw-bg-primary-bg-color"
-          side="right"
-        >
-          <div class="tw-bottom-0 tw-fixed tw-w-full">
-            <div class="tw-text-left tw-text-primary-text-color hover:tw-text-amber-200 vertical">
-              <a href="mailto:nasirlawal001@gmail.com">nasirlawal001@gmail.com</a>
-            </div>
-            <div class="tw-h-24 tw-mt-8 tw-border-l tw-border-gray-300 tw-ml-2.5"></div>
-          </div>
-        </q-drawer>
-
-        <q-drawer
           v-model="rightDrawerItems"
           class="tw-bg-primary-bg-color"
           side="right"
@@ -130,7 +114,7 @@
         </q-drawer>
 
         <q-page-container>
-          <q-page padding>
+          <q-page>
             <router-view />
           </q-page>
         </q-page-container>
@@ -154,7 +138,7 @@ export default defineComponent({
 
     const width = computed(() => {
       return $q.screen.width <= 428 
-      ? 30 : $q.screen.width <= 1366 
+      ? 20 : $q.screen.width <= 1366 
       ? 50 : $q.screen.width <= 1440
       ? 80 : $q.screen.width >=  1910 ? 300 : 50
     })
