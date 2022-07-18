@@ -34,8 +34,8 @@
               dense
               round
               color="info"
-              icon="drag_handle"
-              class="sm:tw-hidden"
+              icon="menu"
+              class="sm:tw-hidden tw-mt-4"
               size="xl"
               aria-label="Menu"
               @click="toggleRightDrawerItems"
