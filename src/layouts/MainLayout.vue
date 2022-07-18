@@ -1,5 +1,5 @@
-<template>
-  <q-layout view="hHh lpR fFf">
+<template>   
+  <q-layout view="hHh LpR lff">
     <div class="row tw-justify-center tw-bg-primary-bg-color">
       <div class="col-12 col-xl-9">
         <q-header class="tw-bg-primary-bg-color tw-h-24" elevated>
@@ -48,7 +48,7 @@
           class="tw-bg-primary-bg-color"
           side="left"
         >
-          <div class="tw-bottom-0 tw-fixed tw-w-full">
+          <div class="tw-w-full tw-bottom-0 tw-fixed">
             <div class="tw-text-right">
               <div class="tw-mt-6 step">
                 <a href="mailto:nasirlawal001@gmail.com">
@@ -69,6 +69,7 @@
             </div>
           </div>
         </q-drawer>
+
         <q-drawer
           v-model="rightDrawerOpen"
           show-if-above
@@ -85,11 +86,12 @@
         </q-drawer>
 
         <q-page-container>
-          <router-view />
+          <q-page>
+            <router-view />
+          </q-page>
         </q-page-container>
       </div>
     </div>
-
   </q-layout>
 </template>
 
