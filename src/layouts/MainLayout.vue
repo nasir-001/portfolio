@@ -24,7 +24,7 @@
               <div class="tw-mt-4 tw-mx-2 lg:tw-mx-4">
                 <span class="tw-text-primary-text-color">04.</span><span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
               </div>
-              <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
+              <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
                 <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
               </div>
             </div>
@@ -107,7 +107,7 @@
             <q-item class="tw-h-14" clickable v-ripple>
               <span class="tw-text-primary-text-color tw-pt-2.5 tw-pr-3">04.</span> <q-item-section class="tw-text-lg tw-text-gray-300">contact</q-item-section>
             </q-item>
-            <div class="tw-mx-auto tw-mt-6 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
+            <div class="tw-mx-auto tw-mt-6 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
               <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
             </div>
           </q-list>
