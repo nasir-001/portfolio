@@ -3,7 +3,7 @@
     <div class="row tw-justify-center tw-bg-primary-bg-color">
       <div class="col-12 col-xl-9">
         <q-header class="tw-bg-primary-bg-color tw-h-24" elevated>
-          <q-toolbar class="tw-px-10">
+          <q-toolbar class="md:tw-px-10">
             <div class="">
               <q-img
                 class="tw-w-14 tw-mt-5 tw-rounded-full tw-border-2 tw-border-gray-300"
@@ -11,21 +11,22 @@
               />
             </div>
             <q-space />
-
-            <div class="tw-mt-4 tw-mx-4">
-              <span class="tw-text-primary-text-color">01.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">about</span>
-            </div>
-            <div class="tw-mt-4 tw-mx-4">
-              <span class="tw-text-primary-text-color">02.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">experience</span>
-            </div>
-            <div class="tw-mt-4 tw-mx-4">
-              <span class="tw-text-primary-text-color">03.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">projects</span>
-            </div>
-            <div class="tw-mt-4 tw-mx-4">
-              <span class="tw-text-primary-text-color">04.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
-            </div>
-            <div class="tw-mt-4 tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
-              <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+            <div class="tw-hidden sm:tw-flex">
+              <div class="tw-mt-4 tw-mx-4">
+                <span class="tw-text-primary-text-color">01.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">about</span>
+              </div>
+              <div class="tw-mt-4 tw-mx-4">
+                <span class="tw-text-primary-text-color">02.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">experience</span>
+              </div>
+              <div class="tw-mt-4 tw-mx-4">
+                <span class="tw-text-primary-text-color">03.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">projects</span>
+              </div>
+              <div class="tw-mt-4 tw-mx-4">
+                <span class="tw-text-primary-text-color">04.</span> <span class="tw-text-lg tw-text-gray-300 tw-px-3 hover:tw-text-primary-text-color">contact</span>
+              </div>
+              <div class="tw-mt-4 tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
+                <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+              </div>
             </div>
 
             <q-btn
@@ -33,10 +34,11 @@
               dense
               round
               color="info"
-              icon="menu"
+              icon="drag_handle"
               class="sm:tw-hidden"
+              size="xl"
               aria-label="Menu"
-              @click="toggleLeftDrawer"
+              @click="toggleRightDrawerItems"
             />
           </q-toolbar>
         </q-header>
@@ -85,6 +87,45 @@
           </div>
         </q-drawer>
 
+        <q-drawer
+          v-model="rightDrawerOpen"
+          show-if-above
+          :width="width"
+          class="tw-bg-primary-bg-color"
+          side="right"
+        >
+          <div class="tw-bottom-0 tw-fixed tw-w-full">
+            <div class="tw-text-left tw-text-primary-text-color hover:tw-text-amber-200 vertical">
+              <a href="mailto:nasirlawal001@gmail.com">nasirlawal001@gmail.com</a>
+            </div>
+            <div class="tw-h-24 tw-mt-8 tw-border-l tw-border-gray-300 tw-ml-2.5"></div>
+          </div>
+        </q-drawer>
+
+        <q-drawer
+          v-model="rightDrawerItems"
+          class="tw-bg-primary-bg-color"
+          side="right"
+        >
+          <q-list class="tw-mt-24">
+            <q-item class="tw-h-14" clickable v-ripple>
+              <span class="tw-text-primary-text-color tw-pt-2.5 tw-pr-3">01.</span> <q-item-section class="tw-text-lg tw-text-gray-300">about</q-item-section>
+            </q-item>
+            <q-item class="tw-h-14" clickable v-ripple>
+              <span class="tw-text-primary-text-color tw-pt-2.5 tw-pr-3">02.</span> <q-item-section class="tw-text-lg tw-text-gray-300">experience</q-item-section>
+            </q-item>
+            <q-item class="tw-h-14" clickable v-ripple>
+              <span class="tw-text-primary-text-color tw-pt-2.5 tw-pr-3">03.</span> <q-item-section class="tw-text-lg tw-text-gray-300">projects</q-item-section>
+            </q-item>
+            <q-item class="tw-h-14" clickable v-ripple>
+              <span class="tw-text-primary-text-color tw-pt-2.5 tw-pr-3">04.</span> <q-item-section class="tw-text-lg tw-text-gray-300">contact</q-item-section>
+            </q-item>
+            <div class="tw-mx-auto tw-mt-6 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border tw-border-primary-text-color">
+              <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+            </div>
+          </q-list>
+        </q-drawer>
+
         <q-page-container>
           <q-page>
             <router-view />
@@ -105,6 +146,7 @@ export default defineComponent({
   setup () {
     const leftDrawerOpen = ref(false)
     const rightDrawerOpen = ref(false)
+    const rightDrawerItems = ref(false)
     const $q = useQuasar()
 
     const width = computed(() => {
@@ -117,12 +159,16 @@ export default defineComponent({
     return {
       leftDrawerOpen,
       rightDrawerOpen,
+      rightDrawerItems,
       width,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
       },
       toggleRightDrawer () {
         rightDrawerOpen.value = !rightDrawerOpen.value
+      },
+      toggleRightDrawerItems () {
+        rightDrawerItems.value = !rightDrawerItems.value
       }
     }
   }
