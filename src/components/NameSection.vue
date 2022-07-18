@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:tw-pt-44 lg:tw-pt-24 tw-pt-12 lg:tw-pl-12 xl:tw-pl-24">
+  <div class="xl:tw-pt-44 tw-pl-4 lg:tw-pt-24 tw-pt-12 lg:tw-pl-12 xl:tw-pl-24">
     <VueWriter class="tw-text-xl md:tw-text-3xl tw-text-primary-text-color" :array="['Hi, my name is']" :eraseSpeed="50" :typeSpeed="100" :delay="5000" />
     <div class="md:tw-pl-8">
       <div class="tw-pt-5 md:tw-pt-12 tw-text-gray-300 tw-text-4xl sm:tw-text-6xl lg:tw-text-7xl xl:tw-text-8xl">
