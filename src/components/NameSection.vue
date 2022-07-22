@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="xl:tw-pt-32 tw-pt-10 sm:tw-mx-10  xl:tw-w-1/2">
-      <div class="tw-text-lg tw-text-gray-400 tw-tracking-wider">
+      <div class="tw-text-xl tw-text-gray-400">
         I'm a software engineer based in Kaduna, Nigeria. I focus on the best experience,
         while balancing the needs of business and pixels-perfection to create digital products.
         I specialize in building exceptional websites, applications, and everything related to it.
