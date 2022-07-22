@@ -10,12 +10,12 @@
       </div>
     </div>
     <div class="xl:tw-pt-32 tw-pt-10 sm:tw-mx-10  xl:tw-w-1/2">
-      <div class="tw-text-lg tw-text-gray-500">
+      <div class="tw-text-lg tw-text-gray-400 tw-tracking-wider">
         I'm a software engineer based in Kaduna, Nigeria. I focus on the best experience,
         while balancing the needs of business and pixels-perfection to create digital products.
         I specialize in building exceptional websites, applications, and everything related to it.
       </div>
-      <div class="tw-mt-4 tw-rounded-md tw-w-44 tw-h-16 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
+      <div class="tw-mt-12 tw-rounded-md tw-w-44 tw-h-16 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
         <a href="mailto:nasirlawal001@gmail.com">
           <q-btn color="info" flat class="tw-rounded-md tw-w-full tw-h-full tw-text-primary-text-color tw-font-normal" no-caps label="Get in touch" @click="onClick" />
         </a>
