@@ -6,7 +6,7 @@
       </div>
       <div class="tw-border-t tw-mt-5 tw-border-gray-700 tw-w-80"></div>
     </div>
-    <div class="tw-flex tw-ml-10">
+    <div class="tw-flex tw-justify-between tw-mx-10">
       <div class="tw-text-gray-400 tw-text-lg tw-tracking-wider">
         <div class="tw-pt-12">
           Hi👋! I'am Nasir, a software engineer based in Kaduna, Nigeria.
@@ -16,6 +16,15 @@
           goal is to build complex products that provide performance and <br>
           user experience.
         </div>
+      </div>
+      <div class="tw-flex tw-mx-10 tw-mt-20">
+        <div class="-tw-ml-6 imgBox -tw-mt-6 tw-absolute">
+          <q-img
+            class="tw-w-64 tw-rounded-lg tw-h-72 tw-pb-6"
+            src="~assets/img/hand.png"
+          />
+        </div>
+        <div class="tw-w-64 tw-rounded-lg tw-h-72 tw-border-2 tw-border-primary-text-color tw-mr-10"></div>
       </div>
     </div>
   </div>
@@ -31,3 +40,12 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+.imgBox:hover {
+  transform: translate(15px, 15px);
+}
+.imgBox {
+  transition: all ease 900ms;
+}
+</style>
