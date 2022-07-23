@@ -1,29 +1,29 @@
 <template>
-  <div class="tw-mt-24 lg:tw-mt-80 tw-px-5 lg:tw-pl-12 xl:tw-pl-24">
+  <div class="tw-mt-24 lg:tw-mt-80 tw-mb-20 tw-px-5 lg:tw-pl-12 xl:tw-pl-24">
     <div class="row">
       <div class="tw-px-10">
         <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">01.</span><span class="tw-text-4xl tw-pl-4 tw-text-gray-300">About Me</span>
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
-    <div class="tw-flex tw-justify-between tw-flex-wrap-reverse sm:tw-flex-nowrap md:tw-mx-10">
+    <div class="tw-flex tw-justify-between tw-flex-wrap-reverse sm:tw-flex-nowrap lg:tw-mx-10">
       <div class="tw-text-gray-400 tw-text-xl tw-w-full">
         <div class="tw-pt-12">
           Hi👋! I'am Nasir, a software engineer based in Kaduna, Nigeria.
         </div>
         <div class="tw-pt-4">
-          I have a passion creating websites and web applications. My <br class="tw-hidden md:tw-block">
-          goal is to build complex products that provide performance and <br class="tw-hidden md:tw-block">
+          I have a passion creating websites and web applications. My <br class="tw-hidden lg:tw-block">
+          goal is to build complex products that provide performance and <br class="tw-hidden lg:tw-block">
           user experience.
         </div>
         <div class="tw-pt-4">
-          I'm self-motivate, goal-oriented and always eager to learn. <br class="tw-hidden md:tw-block">
+          I'm self-motivate, goal-oriented and always eager to learn. <br class="tw-hidden lg:tw-block">
         </div>
         <div class="tw-pt-4">
           Here are a few technologies I've been working with recently.
         </div>
         <div class="tw-flex tw-mt-5">
-          <div class="tw-flex tw-mr-20 sm:tw-mr-24">
+          <div class="tw-flex tw-mr-20 sm:tw-mr-12 lg:tw-mr-24">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -34,7 +34,7 @@
               Python
             </div>
           </div>
-          <div class="tw-flex tw-mr-12 sm:tw-mr-24">
+          <div class="tw-flex tw-mr-12 sm:tw-mr-10 lg:tw-mr-24">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="tw-flex tw-mt-3">
-          <div class="tw-flex tw-mr-20 sm:tw-mr-24">
+          <div class="tw-flex tw-mr-20 sm:tw-mr-12 lg:tw-mr-24">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -69,7 +69,7 @@
               Django
             </div>
           </div>
-          <div class="tw-flex tw-mr-12 sm:tw-mr-24">
+          <div class="tw-flex tw-mr-12 sm:tw-mr-10 lg:tw-mr-24">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -80,7 +80,7 @@
               React js
             </div>
           </div>
-          <div class="tw-flex">
+          <div class="tw-flex tw-ml-0.5">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -93,7 +93,7 @@
           </div>
         </div>
         <div class="tw-flex tw-mt-3">
-          <div class="tw-flex tw-mr-5 sm:tw-mr-7">
+          <div class="tw-flex tw-mr-12 sm:tw-mr-4 lg:tw-mr-16">
             <svg class="tw-w-3 tw-ml-0 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -101,10 +101,10 @@
               </g>
             </svg>
             <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
-              Javascript (ES6+)
+              Javascript 
             </div>
           </div>
-          <div class="tw-flex tw-ml-1 tw-mr-9 sm:tw-mr-20">
+          <div class="tw-flex tw-ml-3 tw-mr-9 sm:tw-mr-6 lg:tw-mr-20">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -115,7 +115,7 @@
               Quasar js
             </div>
           </div>
-          <div class="tw-flex tw-ml-1">
+          <div class="tw-flex tw-ml-2">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -128,7 +128,7 @@
           </div>
         </div>
         <div class="tw-flex tw-mt-3">
-          <div class="tw-flex tw-mr-12 sm:tw-mr-16">
+          <div class="tw-flex tw-mr-12 sm:tw-mr-4 lg:tw-mr-16">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -139,7 +139,7 @@
               Express js
             </div>
           </div>
-          <div class="tw-flex tw-ml-4 tw-mr-9 sm:tw-mr-20">
+          <div class="tw-flex tw-ml-3 tw-mr-10 sm:tw-mr-6 lg:tw-mr-20">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -150,7 +150,7 @@
               Nuxt js
             </div>
           </div>
-          <div class="tw-flex tw-ml-4">
+          <div class="tw-flex tw-ml-5 sm:tw-ml-6">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -163,7 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="tw-flex tw-mx-14 sm:tw-mx-10 tw-mt-20">
+      <div class="tw-flex tw-mx-14 sm:tw-mx-0 sm:tw-ml-6 tw-mt-20">
         <div class="-tw-ml-6 imgBox -tw-mt-6 tw-absolute">
           <q-img
             class="tw-w-64 tw-rounded-lg tw-h-72 tw-pb-6"
