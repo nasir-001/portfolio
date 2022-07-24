@@ -30,7 +30,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Python
             </div>
           </div>
@@ -41,7 +41,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Vue js
             </div>
           </div>
@@ -52,7 +52,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Tawilwindcss
             </div>
           </div>
@@ -65,7 +65,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Django
             </div>
           </div>
@@ -76,7 +76,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               React js
             </div>
           </div>
@@ -87,7 +87,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Boostrap
             </div>
           </div>
@@ -100,7 +100,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Javascript 
             </div>
           </div>
@@ -111,7 +111,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Quasar js
             </div>
           </div>
@@ -122,7 +122,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               CSS
             </div>
           </div>
@@ -135,7 +135,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Express js
             </div>
           </div>
@@ -146,7 +146,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Nuxt js
             </div>
           </div>
@@ -157,7 +157,7 @@
                 <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
               </g>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-pl-2">
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
               Git/Github
             </div>
           </div>
