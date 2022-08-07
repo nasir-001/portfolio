@@ -6,8 +6,12 @@
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
-    <div>
-
+    <div class="tw-flex tw-ml-10 tw-mt-12 tw-text-gray-300">
+      <div class="tw-border-l-2 tw-border-gray-700">
+        <div class="tw-pl-6 title tw-text-lg hover:tw-text-primary-text-color tw-border-l-2 tw-border-primary-text-color">
+          Bexil
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -22,3 +26,10 @@ export default defineComponent({
   },
 })
 </script>
+
+
+<style scoped>
+.title {
+  transition: all ease 900ms;
+}
+</style>
