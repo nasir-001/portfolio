@@ -32,7 +32,7 @@
               </g>
               </svg>
               <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
-                Participation in the Agile Product Development Life Cycle (Fintech, Social Network, Transport)
+                Participating in the Agile Product Development Life Cycle (Fintech, Social Network, Transport)
               </div>
             </div>
             <div class="tw-flex tw-ml-0.5 tw-mt-2">
@@ -151,7 +151,7 @@
               </g>
               </svg>
               <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
-                Participation in the Agile Product Development Life Cycle
+                Participating in the Agile Product Development Life Cycle
               </div>
             </div>
             <div class="tw-flex tw-ml-0.5 tw-mt-2">
@@ -183,6 +183,61 @@
               </svg>
               <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
                 Building and maintaining reusable and testable components and libraries for future use
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Created custom Vue.js with Quasar framwork components for the project
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Translate figma into responsive components, using Vue js, Quasar, Tawilwindcss and JavaScript
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Participating in the Agile Product Development Life Cycle
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Identifying and practicing Python and Javascript best practices 
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Participating in internal meetups, brainstorming and technical discussions
               </div>
             </div>
           </div>
