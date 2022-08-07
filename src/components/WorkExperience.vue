@@ -14,6 +14,9 @@
         <div :class="selected == 'dyfuso' ? 'tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="tw-pl-6 title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-ml-0.5" @click="selectKuuka">
           Dyfuso
         </div>
+        <div :class="selected == 'eduvacity' ? 'tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="tw-pl-6 title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-ml-0.5" @click="selectEduvacity">
+          Eduvacity
+        </div>
       </div>
       <div v-if="selected == 'bexil'" class="tw-ml-8">
         <div>
@@ -165,6 +168,26 @@
           </div>
         </div>
       </div>
+      <div v-if="selected == 'eduvacity'" class="tw-ml-8">
+        <div>
+          <div class="tw-text-3xl">
+            Senior frontend engineer <span class="title tw-text-primary-text-color hover:tw-"><a href="https://www.eduvacity.com/" target="_blank" rel="noopener noreferrer">@Eduvacity</a></span>
+          </div>
+          <div class="tw-mt-5">
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Building and maintaining reusable and testable components and libraries for future use
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -175,7 +198,7 @@ import { defineComponent, ref } from 'vue'
 export default defineComponent({
   name: "WorkExperience",
   setup() {
-    const selected = ref('dyfuso')
+    const selected = ref('eduvacity')
 
     const selectBexil = () => {
       return selected.value = 'bexil'
@@ -185,10 +208,15 @@ export default defineComponent({
       return selected.value = 'dyfuso'
     }
 
+    const selectEduvacity = () => {
+      return selected.value = 'eduvacity'
+    }
+
     return {
       selected,
       selectBexil,
-      selectKuuka
+      selectKuuka,
+      selectEduvacity
     }
   },
 })
