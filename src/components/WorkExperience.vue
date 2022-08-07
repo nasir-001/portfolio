@@ -2,11 +2,11 @@
   <div class="tw-mt-24 lg:tw-mt-64 tw-mb-20 tw-px-5 lg:tw-pl-12 xl:tw-pl-24">
     <div class="row">
       <div class="tw-px-10">
-        <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">02.</span><span class="tw-text-4xl tw-pl-4 tw-text-gray-300">Work Experience</span>
+        <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">02.</span><span class="tw-text-4xl tw-pl-4 tw-text-gray-300">Working Experience</span>
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
-    <div class="tw-flex tw-ml-10 tw-mt-12 tw-text-gray-300">
+    <div class="tw-flex tw-ml-10 tw-mt-12 tw-text-gray-300 tw-relative">
       <div class="tw-border-l-2 tw-border-gray-700 tw-w-44 tw-h-full">
         <div :class="selected == 'bexil' ? 'tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="tw-pl-6 title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-ml-0.5" @click="selectBexil">
           Bexil
@@ -91,7 +91,79 @@
         </div>
       </div>
       <div v-if="selected == 'dyfuso'" class="tw-ml-8">
-        Frontend developer
+        <div>
+          <div class="tw-text-3xl">
+            Frontend engineer <span class="title tw-text-primary-text-color hover:tw-"><a href="https://kuuka.dyfuso.com/" target="_blank" rel="noopener noreferrer">@Dyfuso</a></span>
+          </div>
+          <div class="tw-mt-5">
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Building reusable and testable components and libraries for future use
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Creating of high-performance online store management system
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Integrate real-time tracking and communication into the system
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Optimized loading of initial config
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Participation in the Agile Product Development Life Cycle
+              </div>
+            </div>
+            <div class="tw-flex tw-ml-0.5 tw-mt-2">
+              <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+              <g>
+                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
+              </g>
+              </svg>
+              <div class="tw-text-sm sm:tw-text-lg sm:tw-pl-2 tw-font-light">
+                Improving and optimizing existing functionality 
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -103,7 +175,7 @@ import { defineComponent, ref } from 'vue'
 export default defineComponent({
   name: "WorkExperience",
   setup() {
-    const selected = ref('bexil')
+    const selected = ref('dyfuso')
 
     const selectBexil = () => {
       return selected.value = 'bexil'
