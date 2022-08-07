@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-mt-24 lg:tw-mt-80 tw-mb-20 tw-px-5 lg:tw-pl-12 xl:tw-pl-24">
+  <div class="tw-mt-24 lg:tw-mt-80 tw-px-5 lg:tw-pl-12 xl:tw-pl-24">
     <div class="row">
       <div class="tw-px-10">
         <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">01.</span><span class="tw-text-4xl tw-pl-4 tw-text-gray-300">About Me</span>
@@ -163,7 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="tw-flex tw-mx-14 sm:tw-mx-0 sm:tw-ml-6 tw-mt-20">
+      <div class="tw-flex tw-mx-10 sm:tw-mx-0 sm:tw-ml-6 tw-mt-20">
         <div class="-tw-ml-6 imgBox -tw-mt-6 tw-absolute">
           <q-img
             class="tw-w-64 tw-rounded-lg tw-h-72 tw-pb-6"
