@@ -20,7 +20,7 @@
       </div>
       <div v-if="selected == 'bexil'" class="sm:tw-ml-8 tw-mt-12 sm:tw-mt-0">
         <div>
-          <div class="tw-text-3xl">
+          <div class="tw-text-2xl sm:tw-text-3xl">
             Frontend developer <span class="title tw-text-primary-text-color"><a href="https://bexilsolutions.com/" target="_blank" rel="noopener noreferrer">@Bexil</a></span>
           </div>
           <div class="tw-mt-5">
@@ -95,7 +95,7 @@
       </div>
       <div v-if="selected == 'dyfuso'" class="sm:tw-ml-8 tw-mt-12 sm:tw-mt-0">
         <div>
-          <div class="tw-text-3xl">
+          <div class="tw-text-2xl sm:tw-text-3xl">
             Frontend engineer <span class="title tw-text-primary-text-color"><a href="https://kuuka.dyfuso.com/" target="_blank" rel="noopener noreferrer">@Dyfuso</a></span>
           </div>
           <div class="tw-mt-5">
@@ -170,7 +170,7 @@
       </div>
       <div v-if="selected == 'eduvacity'" class="sm:tw-ml-8 tw-mt-12 sm:tw-mt-0">
         <div>
-          <div class="tw-text-3xl">
+          <div class="tw-text-2xl sm:tw-text-3xl">
             Senior frontend engineer <span class="title tw-text-primary-text-color"><a href="https://www.eduvacity.com/" target="_blank" rel="noopener noreferrer">@Eduvacity</a></span>
           </div>
           <div class="tw-mt-5">

@@ -7,7 +7,7 @@
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
     <div class="tw-flex tw-justify-between tw-flex-wrap-reverse sm:tw-flex-nowrap lg:tw-mx-10">
-      <div class="tw-text-gray-400 tw-text-xl tw-w-full">
+      <div class="tw-text-gray-400 tw-text-base tw-font-light sm:tw-text-xl tw-w-full">
         <div class="tw-pt-12">
           Hi👋! I'am Nasir, a software engineer based in Kaduna, Nigeria.
         </div>
