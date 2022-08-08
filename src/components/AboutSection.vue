@@ -53,7 +53,7 @@
               </g>
             </svg>
             <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Tawilwindcss
+              Tailwindcss
             </div>
           </div>
         </div>

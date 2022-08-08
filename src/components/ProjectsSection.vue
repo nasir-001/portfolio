@@ -78,34 +78,34 @@
       </div>
       <div class="tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
-          <a href="https://github.com/nasir-001/Django-online-employent-system" target="_blank" rel="noopener noreferrer"> 
+          <a href="https://github.com/nasir-001/E-Commerce" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
           </a>
         </div>
         <div class="tw-pl-4 tw-text-gray-300 tw-text-xl tw-font-semibold">
-          Job management
+          Shopeit
         </div>
         <div class="tw-h-44 tw-px-4 tw-pt-4 tw-text-gray-400 tw-text-lg tw-font-light">
-          A django application where employers can post a vacancy and candidates can and upload resume, a successful candidate will recieve a mail.
+          An e-commerce application with online payments feature and google maps for driver to help in delivery.
         </div>
         <div class="tw-font-mono tw-px-4 tw-text-gray-400">
-          Django, Bootstrap, CSS, SCSS
+          Laravel, Orchid UI, Vuejs, Tailwind
         </div>
       </div>
       <div class="tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
-          <a href="https://github.com/nasir-001/attendance-sys-ui" target="_blank" rel="noopener noreferrer"> 
+          <a href="https://github.com/nasir-001/flutter_todo_app" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
           </a>
         </div>
         <div class="tw-pl-4 tw-text-gray-300 tw-text-xl tw-font-semibold">
-          Attendance system
+          Todo app
         </div>
         <div class="tw-h-44 tw-px-4 tw-pt-4 tw-text-gray-400 tw-text-lg tw-font-light">
-          An online attendance system which helps in keeping record of attendees in an events for future reference.
+          A mobile app simple todo-list which uses calendar to schedule a task and a notification reminder for each task.
         </div>
         <div class="tw-font-mono tw-px-4 tw-text-gray-400">
-          FastAPI, Vuejs, Quasar, Tailwindcss
+          Flutter, date-picker, google fonts
         </div>
       </div>
     </div>
@@ -128,7 +128,7 @@ export default defineComponent({
   transform: translateY(-5%);
 }
 .step {
-  transition: all ease 600ms;
+  transition: all ease 900ms;
 }
 /* .avatar:hover {
   transform: translateX(5%);
