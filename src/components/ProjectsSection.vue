@@ -6,7 +6,7 @@
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
-    <div class="tw-flex tw-justify-center tw-mt-16">
+    <div class="tw-flex tw-justify-start tw-mt-16">
       <div class="tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mx-3">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
@@ -40,6 +40,22 @@
         </div>
         <div class="tw-font-mono tw-px-4 tw-text-gray-400">
           Django, Bootstrap, CSS, SCSS
+        </div>
+      </div>
+      <div class="tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mx-3">
+        <div class="tw-flex tw-justify-end tw-m-4">
+          <a href="https://github.com/nasir-001/attendance-sys-ui" target="_blank" rel="noopener noreferrer"> 
+            <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
+          </a>
+        </div>
+        <div class="tw-pl-4 tw-text-gray-300 tw-text-xl tw-font-semibold">
+          Attendance system
+        </div>
+        <div class="tw-h-44 tw-px-4 tw-pt-4 tw-text-gray-400 tw-text-lg tw-font-light">
+          An online attendance system which helps in keeping record of attendees in an events for future reference.
+        </div>
+        <div class="tw-font-mono tw-px-4 tw-text-gray-400">
+          FastAPI, Vuejs, Quasar, Tailwindcss
         </div>
       </div>
     </div>

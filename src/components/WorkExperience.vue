@@ -204,7 +204,7 @@
               </g>
               </svg>
               <div class="tw-text-sm sm:tw-text-lg tw-pl-4 tw-font-light">
-                Translate figma into responsive components, using Vue js, Quasar, Tawilwindcss and JavaScript
+                Translate figma into responsive components, using Vue js, Quasar, Tailwindcss and JavaScript
               </div>
             </div>
             <div class="tw-flex tw-ml-0.5 tw-mt-2">
