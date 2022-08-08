@@ -138,9 +138,11 @@ export default defineComponent({
 
     const width = computed(() => {
       return $q.screen.width <= 428 
-      ? 20 : $q.screen.width <= 1366 
+      ? 20 : $q.screen.width <= 1080 
+      ? 30 : $q.screen.width <= 1366
       ? 80 : $q.screen.width <= 1440
-      ? 100 : $q.screen.width >=  1910 ? 300 : 50
+      ? 100 : $q.screen.width >=  1910 
+      ? 300 : 50
     })
 
     return {
