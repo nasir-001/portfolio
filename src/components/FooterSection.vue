@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-text-gray-400 tw-text-base tw-text-center -tw-ml-6 tw-pt-24 tw-pb-10">
+  <div class="tw-text-gray-400 tw-text-base tw-text-center -tw-ml-6 tw-pt-44 tw-pb-10">
     Design and developed with ❤️ by Nasir
   </div>
 </template>
