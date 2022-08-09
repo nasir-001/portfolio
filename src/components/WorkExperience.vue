@@ -171,7 +171,7 @@
       <div v-if="selected == 'eduvacity'" class="lg:tw-ml-8 tw-mt-8 tw-pr-6 sm:tw-mt-0">
         <div>
           <div class="tw-text-2xl sm:tw-text-3xl">
-            Senior frontend engineer <span class="title tw-text-primary-text-color"><a href="https://www.eduvacity.com/" target="_blank" rel="noopener noreferrer">@Eduvacity</a></span>
+            Frontend engineer <span class="title tw-text-primary-text-color"><a href="https://www.eduvacity.com/" target="_blank" rel="noopener noreferrer">@Eduvacity</a></span>
           </div>
           <div class="tw-mt-5">
             <div class="tw-flex tw-ml-0.5 tw-mt-2">
