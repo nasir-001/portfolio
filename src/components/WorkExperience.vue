@@ -1,6 +1,6 @@
 <template>
-  <div class="tw-mt-24 lg:tw-mt-64 tw-mb-20 sm:tw-px-5">
-    <div class="row">
+  <div class="tw-mt-24 lg:tw-mt-64 tw-mb-20 tw-px-5">
+    <div class="row -tw-ml-4 sm:-tw-ml-0">
       <div class="sm:tw-px-10">
         <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">02.</span><span class="tw-text-4xl sm:tw-pl-4 tw-text-gray-300">Working Experience</span>
       </div>
