@@ -22,10 +22,9 @@
             </div>
           </div>
           <div class="tw-bg-projects-bg-color tw-w-100 -tw-ml-12 tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
-            Eduvacity helps by understand the world needs, crafting a robust
-            learning curriculum that is well crafted and easy to understand, focusing
-            on interactive, and collaborative learning experiences to enhance
-            engagement and improve knowledge retention. 
+            Eduvacity is a platform that provides people with essential knowledge,
+            skills, and experience in industry. We strive to find the gaps in 
+            expertise and proficiency.  
           </div>
           <div class="tw-p-4 tw-text-sm tw-text-gray-400 tw-font-mono">
             FastAPI, Postgresql, Quasar framework, Vuejs, Tailwindcss
@@ -65,7 +64,35 @@
         /> 
       </div>
     </div>
-    <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:-tw-ml-0 tw-justify-center tw-mt-16">
+    <div class="tw-mt-24">
+      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+        <q-img
+          class="tw-w-120 image tw-object-cover"
+          src="~assets/img/dashboard.png"
+        />
+        <div class="">
+          <div class="tw-text-right">
+            <div class="tw-text-primary-text-color">
+              Featured project
+            </div>
+            <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+              Eduvacity
+            </div>
+          </div>
+          <div class="tw-bg-projects-bg-color tw-w-100 -tw-ml-12 tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
+            Resonating proficiency is what we are out for, we provide students with
+            mastery at their comfort zone. Anytime anywhere.  
+          </div>
+          <div class="tw-p-4 tw-text-sm tw-text-gray-400 tw-font-mono">
+            FastAPI, Postgresql, Quasar framework, Vuejs, Tailwindcss
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tw-text-center tw-text-gray-300 tw-text-4xl tw-font-medium tw-pt-32">
+      Other Noteworthy Projects
+    </div>
+    <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:-tw-ml-0 tw-justify-center tw-mt-5">
       <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
