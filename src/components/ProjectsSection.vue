@@ -9,10 +9,11 @@
     <div class="tw-mt-12">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <q-img
+          data-aos="fade-right"
           class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
           src="~assets/img/eduvacity.png"
         />
-        <div class="">
+        <div data-aos="fade-left" class="">
           <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
               Featured project
@@ -37,7 +38,7 @@
     </div>
     <div class="sm:tw-mt-24">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
-        <div class="tw-relative">
+        <div data-aos="fade-right" class="tw-relative">
           <div class="tw-text-left">
             <div class="tw-text-primary-text-color">
               Featured project
@@ -59,6 +60,7 @@
           </a>
         </div> 
         <q-img
+          data-aos="fade-left"
           class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
           src="~assets/img/kuuka.png"
         /> 
@@ -67,10 +69,11 @@
     <div class="sm:tw-mt-24">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <q-img
+          data-aos="fade-right"
           class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
           src="~assets/img/dashboard.png"
         />
-        <div class="">
+        <div data-aos="fade-left" class="">
           <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
               Featured project
@@ -93,7 +96,7 @@
       Other Noteworthy Projects
     </div>
     <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:tw-mr-3 lg:tw-mr-0 tw-justify-center tw-mt-5">
-      <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+      <div data-aos="zoom-in" class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -112,7 +115,7 @@
           Django, jQuery, Bootstrap, CSS
         </div>
       </div>
-      <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+      <div data-aos="zoom-in" class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-online-employent-system" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -128,7 +131,7 @@
           Django, Bootstrap, CSS, SCSS
         </div>
       </div>
-      <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+      <div data-aos="zoom-in" class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/attendance-sys-ui" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -146,7 +149,7 @@
       </div>
     </div>
     <div class="tw-flex -tw-ml-4  sm:tw-mr-3 lg:tw-mr-0 tw-justify-center tw-flex-wrap sm:tw-flex-nowrap sm:tw-mt-8">
-      <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+      <div data-aos="zoom-in" class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -162,7 +165,7 @@
           Django, Bootstrap, CSS
         </div>
       </div>
-      <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+      <div data-aos="zoom-in" class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/E-Commerce" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -178,7 +181,7 @@
           Laravel, Orchid UI, Vuejs, Tailwind
         </div>
       </div>
-      <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+      <div data-aos="zoom-in" class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/flutter_todo_app" target="_blank" rel="noopener noreferrer"> 
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />

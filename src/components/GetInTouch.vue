@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-text-center -tw-ml-4 tw-pt-36">
+  <div data-aos="fade-up" class="tw-text-center -tw-ml-4 tw-pt-36">
     <span class="tw-text-xl tw-font-light tw-text-primary-text-color">04. What is next?</span>
     <div class="tw-text-gray-300 tw-pt-4 tw-text-4xl sm:tw-text-6xl">
       Get in Touch

@@ -7,7 +7,7 @@
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
     <div class="tw-flex tw-justify-start tw-flex-wrap-reverse sm:tw-flex-nowrap lg:tw-mx-10">
-      <div class="tw-text-gray-400 tw-text-base tw-font-light sm:tw-text-xl tw-w-full">
+      <div data-aos="fade-right" class="tw-text-gray-400 tw-text-base tw-font-light sm:tw-text-xl tw-w-full">
         <div class="tw-pt-12">
           Hi👋! I'am Nasir, a software engineer based in Kaduna, Nigeria.
         </div>
@@ -163,7 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="tw-flex tw-mx-10 sm:tw-mx-0 sm:tw-ml-6 tw-mt-20">
+      <div data-aos="fade-left" class="tw-flex tw-mx-10 sm:tw-mx-0 sm:tw-ml-6 tw-mt-20">
         <div class="-tw-ml-6 imgBox -tw-mt-6 tw-absolute">
           <q-img
             class="tw-w-64 tw-rounded-lg tw-h-72 tw-pb-6"
