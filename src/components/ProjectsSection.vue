@@ -14,7 +14,7 @@
         />
         <div class="">
           <div class="tw-text-right">
-            <div class="tw-text-primary-text-color tw-pr-3">
+            <div class="tw-text-primary-text-color">
               Featured project
             </div>
             <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
@@ -31,9 +31,38 @@
             FastAPI, Postgresql, Quasar framework, Vuejs, Tailwindcss
           </div>
           <a class="tw-float-right" href="https://www.eduvacity.com" target="_blank" rel="noopener noreferrer">
-            <q-icon name="launch" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
+            <q-icon name="launch" class="tw-mt-3 tw-text-primary-text-color" size="md" />
           </a>
         </div>
+      </div>
+    </div>
+    <div class="tw-mt-24">
+      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+        <div class="tw-relative">
+          <div class="tw-text-left">
+            <div class="tw-text-primary-text-color">
+              Featured project
+            </div>
+            <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+              KUUKA
+            </div>
+          </div>
+          <div class="tw-bg-projects-bg-color tw-w-100 card tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-h-44">
+            KUUKA empower your business witn a tecnology driven approach 
+            to centralize ordering. Our plattorm simplifies and streamlines 
+            the ordering process. 
+          </div>
+          <div class="tw-pt-4 tw-text-sm tw-text-gray-400 tw-font-mono">
+            Express js, Postgresql, Quasar framework, Vuejs, Tailwindcss
+          </div>
+          <a href="https://kuuka.dyfuso.com/" target="_blank" rel="noopener noreferrer">
+            <q-icon name="launch" class="tw-mt-3 tw-text-primary-text-color" size="md" />
+          </a>
+        </div> 
+        <q-img
+          class="tw-w-120 -tw-ml-12 image"
+          src="~assets/img/kuuka.png"
+        /> 
       </div>
     </div>
     <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:-tw-ml-0 tw-justify-center tw-mt-16">
@@ -168,5 +197,9 @@ export default defineComponent({
 }
 .image:hover {
   opacity: 100%;
+}
+.card {
+  z-index: 2;
+  position: inherit;
 }
 </style>
