@@ -33,7 +33,9 @@
                 </a>
               </div>
               <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
-                <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+                <a href="../../resume.pdf">
+                  <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" />
+                </a>
               </div>
             </div>
 
