@@ -8,11 +8,12 @@
     </div>
     <div class="tw-mt-12">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
-        <q-img
-          data-aos="fade-down"
-          class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
-          src="~assets/img/eduvacity.png"
-        />
+        <div data-aos="fade-down">
+          <q-img
+            class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
+            src="~assets/img/eduvacity.png"
+          />
+        </div>
         <div data-aos="fade-up" class="">
           <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
@@ -59,20 +60,22 @@
             <q-icon name="launch" class="tw-mt-3 tw-text-primary-text-color" size="md" />
           </a>
         </div> 
-        <q-img
-          data-aos="fade-up"
-          class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
-          src="~assets/img/kuuka.png"
-        /> 
+        <div data-aos="fade-up">
+          <q-img
+            class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
+            src="~assets/img/kuuka.png"
+          /> 
+        </div>
       </div>
     </div>
     <div class="sm:tw-mt-24">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
-        <q-img
-          data-aos="fade-down"
-          class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
-          src="~assets/img/dashboard.png"
-        />
+        <div data-aos="fade-down">
+          <q-img
+            class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
+            src="~assets/img/dashboard.png"
+          />
+        </div>
         <div data-aos="fade-up" class="">
           <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">

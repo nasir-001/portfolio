@@ -193,7 +193,7 @@
               </g>
               </svg>
               <div class="tw-text-sm sm:tw-text-lg tw-pl-4 tw-font-light">
-                Created custom Vue.js with Quasar framwork components for the project
+                Created custom Vue js with Quasar framework components for the project
               </div>
             </div>
             <div class="tw-flex tw-ml-0.5 tw-mt-2">
