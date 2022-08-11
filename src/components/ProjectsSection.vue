@@ -6,6 +6,22 @@
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
+    <div class="tw-mt-12">
+      <div class="tw-flex tw-justify-between tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+        <q-img
+          class="tw-w-100 image"
+          src="~assets/img/eduvacity.png"
+        />
+        <div class="tw-text-center">
+          <div class="tw-text-primary-text-color">
+            Featured project
+          </div>
+          <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+            Eduvacity
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:-tw-ml-0 tw-justify-center tw-mt-16">
       <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
@@ -130,10 +146,16 @@ export default defineComponent({
 .step {
   transition: all ease 900ms;
 }
-/* .avatar:hover {
-  transform: translateX(5%);
+.image {
+  position:relative;
+  height: 100%;
+  opacity: 0.50;
+  -moz-opacity: 10%;
+  -webkit-opacity: 10%;
+  z-index: 2;
+  transition: all ease 900ms;
 }
-.avatar {
-  transition: all ease 600ms;
-} */
+.image:hover {
+  opacity: 100%;
+}
 </style>

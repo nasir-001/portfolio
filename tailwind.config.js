@@ -9,7 +9,8 @@ module.exports = {
         'projects-bg-color': '#172a45'
       },
       spacing: {
-        75: '18.3rem'
+        75: '18.3rem',
+        100: '38rem'
       }
     },
   },
