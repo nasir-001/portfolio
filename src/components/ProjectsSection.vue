@@ -7,18 +7,32 @@
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
     <div class="tw-mt-12">
-      <div class="tw-flex tw-justify-between tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
         <q-img
-          class="tw-w-100 image"
+          class="tw-w-120 image"
           src="~assets/img/eduvacity.png"
         />
-        <div class="tw-text-center">
-          <div class="tw-text-primary-text-color">
-            Featured project
+        <div class="">
+          <div class="tw-text-right">
+            <div class="tw-text-primary-text-color tw-pr-3">
+              Featured project
+            </div>
+            <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+              Eduvacity
+            </div>
           </div>
-          <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
-            Eduvacity
+          <div class="tw-bg-projects-bg-color tw-w-100 -tw-ml-12 tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
+            Eduvacity helps by understand the world needs, crafting a robust
+            learning curriculum that is well crafted and easy to understand, focusing
+            on interactive, and collaborative learning experiences to enhance
+            engagement and improve knowledge retention. 
           </div>
+          <div class="tw-p-4 tw-text-sm tw-text-gray-400 tw-font-mono">
+            FastAPI, Postgresql, Quasar framework, Vuejs, Tailwindcss
+          </div>
+          <a class="tw-float-right" href="https://www.eduvacity.com" target="_blank" rel="noopener noreferrer">
+            <q-icon name="launch" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
+          </a>
         </div>
       </div>
     </div>
@@ -29,7 +43,7 @@
             <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
           </a>
           <a href="https://student-helpline.heroku.app" target="_blank" rel="noopener noreferrer">
-            <q-icon name="link" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
+            <q-icon name="launch" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
           </a>
         </div>
         <div class="tw-pl-4 tw-text-gray-300 tw-text-xl tw-font-semibold">
@@ -147,13 +161,10 @@ export default defineComponent({
   transition: all ease 900ms;
 }
 .image {
-  position:relative;
-  height: 100%;
   opacity: 0.50;
   -moz-opacity: 10%;
   -webkit-opacity: 10%;
-  z-index: 2;
-  transition: all ease 900ms;
+  transition: all ease 600ms;
 }
 .image:hover {
   opacity: 100%;
