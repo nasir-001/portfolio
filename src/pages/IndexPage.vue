@@ -1,10 +1,10 @@
 <template>
   <q-page class="">
     <NameSection />
-    <AboutSection />
-    <WorkExperience />
-    <ProjectsSection />
-    <GetInTouch />
+    <AboutSection id="about" />
+    <WorkExperience id="experience" />
+    <ProjectsSection id="projects" />
+    <GetInTouch id="contact" />
     <FooterSection />
   </q-page>
 </template>
