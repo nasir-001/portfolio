@@ -9,11 +9,11 @@
     <div class="tw-mt-12">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <q-img
-          data-aos="fade-right"
+          data-aos="fade-down"
           class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
           src="~assets/img/eduvacity.png"
         />
-        <div data-aos="fade-left" class="">
+        <div data-aos="fade-up" class="">
           <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
               Featured project
@@ -38,7 +38,7 @@
     </div>
     <div class="sm:tw-mt-24">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
-        <div data-aos="fade-right" class="tw-relative">
+        <div data-aos="fade-down" class="tw-relative">
           <div class="tw-text-left">
             <div class="tw-text-primary-text-color">
               Featured project
@@ -60,7 +60,7 @@
           </a>
         </div> 
         <q-img
-          data-aos="fade-left"
+          data-aos="fade-up"
           class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
           src="~assets/img/kuuka.png"
         /> 
@@ -69,11 +69,11 @@
     <div class="sm:tw-mt-24">
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <q-img
-          data-aos="fade-right"
+          data-aos="fade-down"
           class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
           src="~assets/img/dashboard.png"
         />
-        <div data-aos="fade-left" class="">
+        <div data-aos="fade-up" class="">
           <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
               Featured project
