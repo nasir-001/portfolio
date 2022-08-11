@@ -7,21 +7,21 @@
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
     <div class="tw-mt-12">
-      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <q-img
-          class="tw-w-120 image"
+          class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
           src="~assets/img/eduvacity.png"
         />
         <div class="">
-          <div class="tw-text-right">
+          <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
               Featured project
             </div>
-            <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+            <div class="tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
               Eduvacity
             </div>
           </div>
-          <div class="tw-bg-projects-bg-color tw-w-100 -tw-ml-12 tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
+          <div class="tw-bg-projects-bg-color tw-w-full sm:tw-w-80 lg:tw-w-100 -tw-ml-1 sm:-tw-ml-12 tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
             Eduvacity is a platform that provides people with essential knowledge,
             skills, and experience in industry. We strive to find the gaps in 
             expertise and proficiency.  
@@ -35,18 +35,18 @@
         </div>
       </div>
     </div>
-    <div class="tw-mt-24">
-      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+    <div class="sm:tw-mt-24">
+      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <div class="tw-relative">
           <div class="tw-text-left">
             <div class="tw-text-primary-text-color">
               Featured project
             </div>
-            <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+            <div class="tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
               KUUKA
             </div>
           </div>
-          <div class="tw-bg-projects-bg-color tw-w-100 card tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-h-44">
+          <div class="tw-bg-projects-bg-color tw-w-full -tw-ml-1 sm:tw-w-80 lg:tw-w-100 card tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-h-44">
             KUUKA empower your business witn a tecnology driven approach 
             to centralize ordering. Our plattorm simplifies and streamlines 
             the ordering process. 
@@ -59,27 +59,27 @@
           </a>
         </div> 
         <q-img
-          class="tw-w-120 -tw-ml-12 image"
+          class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
           src="~assets/img/kuuka.png"
         /> 
       </div>
     </div>
-    <div class="tw-mt-24">
-      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 lg:tw-mr-20">
+    <div class="sm:tw-mt-24">
+      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <q-img
-          class="tw-w-120 image tw-object-cover"
+          class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
           src="~assets/img/dashboard.png"
         />
         <div class="">
-          <div class="tw-text-right">
+          <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
             <div class="tw-text-primary-text-color">
               Featured project
             </div>
-            <div class="tw-text-3xl tw-font-medium tw-text-white tw-pt-3">
+            <div class="tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
               Eduvacity
             </div>
           </div>
-          <div class="tw-bg-projects-bg-color tw-w-100 -tw-ml-12 tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
+          <div class="tw-bg-projects-bg-color tw-w-full sm:tw-w-80 lg:tw-w-100 -tw-ml-1 sm:-tw-ml-12 tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
             Resonating proficiency is what we are out for, we provide students with
             mastery at their comfort zone. Anytime anywhere.  
           </div>
@@ -89,10 +89,10 @@
         </div>
       </div>
     </div>
-    <div class="tw-text-center tw-text-gray-300 tw-text-4xl tw-font-medium tw-pt-32">
+    <div class="tw-text-center -tw-ml-4 tw-text-gray-300 tw-text-3xl sm:tw-text-4xl tw-font-medium tw-pt-16 sm:tw-pt-32">
       Other Noteworthy Projects
     </div>
-    <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:-tw-ml-0 tw-justify-center tw-mt-5">
+    <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:tw-mr-3 lg:tw-mr-0 tw-justify-center tw-mt-5">
       <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
@@ -145,7 +145,7 @@
         </div>
       </div>
     </div>
-    <div class="tw-flex -tw-ml-4 sm:-tw-ml-0 tw-justify-center tw-flex-wrap sm:tw-flex-nowrap sm:tw-mt-8">
+    <div class="tw-flex -tw-ml-4  sm:tw-mr-3 lg:tw-mr-0 tw-justify-center tw-flex-wrap sm:tw-flex-nowrap sm:tw-mt-8">
       <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
         <div class="tw-flex tw-justify-end tw-m-4">
           <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
