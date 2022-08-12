@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-mt-24 lg:tw-mt-80 tw-px-5">
+  <div class="tw-mt-24 lg:tw-mt-80 tw-pr-3 sm:tw-pr-0 sm:tw-px-5">
     <div class="row">
       <div class="tw-px-10">
         <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">01.</span><span class="tw-text-4xl tw-pl-4 tw-text-gray-300">About Me</span>
@@ -104,7 +104,7 @@
               Javascript 
             </div>
           </div>
-          <div class="tw-flex tw-ml-3 tw-mr-9 sm:tw-mr-6 lg:tw-mr-20">
+          <div class="tw-flex tw-ml-3.5 tw-mr-9 sm:tw-mr-6 lg:tw-mr-20">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -139,7 +139,7 @@
               Express js
             </div>
           </div>
-          <div class="tw-flex tw-ml-3 tw-mr-10 sm:tw-mr-6 lg:tw-mr-20">
+          <div class="tw-flex tw-ml-4 tw-mr-10 sm:tw-mr-6 lg:tw-mr-20">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
@@ -150,7 +150,7 @@
               Nuxt js
             </div>
           </div>
-          <div class="tw-flex tw-ml-5 sm:tw-ml-6">
+          <div class="tw-flex tw-ml-4 sm:tw-ml-6">
             <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
               <g>
