@@ -2,7 +2,7 @@
   <div class="tw-mt-24 lg:tw-mt-64 tw-mb-20 tw-px-5">
     <div class="row">
       <div class="sm:tw-px-10">
-        <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">03.</span><span class="tw-text-4xl sm:tw-pl-4 tw-text-gray-300">Featured Projects</span>
+        <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">03.</span><span class="tw-text-3xl sm:tw-text-4xl sm:tw-pl-4 tw-text-gray-300">Featured Projects</span>
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
@@ -19,7 +19,7 @@
             <div class="tw-text-primary-text-color">
               Featured project
             </div>
-            <div class="tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
+            <div class="tw-text-2xl sm:tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
               Eduvacity
             </div>
           </div>
@@ -44,7 +44,7 @@
             <div class="tw-text-primary-text-color">
               Featured project
             </div>
-            <div class="tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
+            <div class="tw-text-2xl sm:tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
               KUUKA
             </div>
           </div>
@@ -81,7 +81,7 @@
             <div class="tw-text-primary-text-color">
               Featured project
             </div>
-            <div class="tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
+            <div class="tw-text-2xl sm:tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
               Eduvacity
             </div>
           </div>

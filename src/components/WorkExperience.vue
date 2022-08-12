@@ -1,8 +1,8 @@
 <template>
-  <div class="tw-mt-24 lg:tw-mt-64 tw-mb-20 tw-px-5">
+  <div class="tw-mt-24 lg:tw-mt-64 tw-mb-20 tw-px-4 sm:tw-px-5">
     <div class="row -tw-ml-4 sm:-tw-ml-0">
       <div class="sm:tw-px-10">
-        <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">02.</span><span class="tw-text-4xl sm:tw-pl-4 tw-text-gray-300">Working Experience</span>
+        <span class="tw-text-2xl tw-font-light tw-text-primary-text-color">02.</span><span class="tw-text-3xl sm:tw-text-4xl sm:tw-pl-4 tw-text-gray-300">Working Experience</span>
       </div>
       <div class="tw-border-t tw-mt-5 tw-mx-auto sm:tw-mx-0 tw-border-gray-700 tw-w-80"></div>
     </div>
@@ -18,7 +18,7 @@
           Eduvacity
         </div>
       </div>
-      <div data-aos="fade" v-if="selected == 'bexil'" class="lg:tw-ml-8 tw-mt-8 tw-pr-6 sm:tw-mt-0">
+      <div data-aos="fade" v-if="selected == 'bexil'" class="lg:tw-ml-8 tw-mt-8 sm:tw-pr-6 sm:tw-mt-0">
         <div>
           <div class="tw-text-2xl sm:tw-text-3xl">
             Frontend developer <span class="title tw-text-primary-text-color"><a href="https://bexilsolutions.com/" target="_blank" rel="noopener noreferrer">@Bexil</a></span>
@@ -168,7 +168,7 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade" v-if="selected == 'eduvacity'" class="lg:tw-ml-8 tw-mt-8 tw-pr-6 sm:tw-mt-0">
+      <div data-aos="fade" v-if="selected == 'eduvacity'" class="lg:tw-ml-8 tw-mt-8 sm:tw-pr-6 sm:tw-mt-0">
         <div>
           <div class="tw-text-2xl sm:tw-text-3xl">
             Frontend engineer <span class="title tw-text-primary-text-color"><a href="https://www.eduvacity.com/" target="_blank" rel="noopener noreferrer">@Eduvacity</a></span>
