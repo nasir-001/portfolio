@@ -33,12 +33,11 @@
                 </a>
               </div>
               <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
-                <a href="../../resume.pdf">
-                  <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" />
+                <a href="https://drive.google.com/file/d/1E-tZeIRumKFmmAv-tQbLkGWtNJ9zVPEw/view" target="_blank">
+                  <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="show = true" />
                 </a>
               </div>
             </div>
-
             <q-btn
               flat
               dense
@@ -126,7 +125,9 @@
               </q-item>
             </a>  
             <div class="tw-mx-auto tw-mt-6 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
-              <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+              <a href="https://drive.google.com/file/d/1E-tZeIRumKFmmAv-tQbLkGWtNJ9zVPEw/view" target="_blank">
+                <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="onClick" />
+              </a>
             </div>
           </q-list>
         </q-drawer>
@@ -134,6 +135,12 @@
         <q-page-container>
           <q-page>
             <router-view />
+            <!-- <q-pdfviewer
+              v-model="show"
+              type="html5"
+              :src="src"
+              content-class="absolute"
+            /> -->
           </q-page>
         </q-page-container>
       </div>
@@ -153,6 +160,8 @@ export default defineComponent({
     const rightDrawerOpen = ref(false)
     const rightDrawerItems = ref(false)
     const $q = useQuasar()
+    const show = true
+    const src = './resume.pdf'
 
     const width = computed(() => {
       return $q.screen.width <= 428 
@@ -176,7 +185,10 @@ export default defineComponent({
       },
       toggleRightDrawerItems () {
         rightDrawerItems.value = !rightDrawerItems.value
-      }
+      },
+
+      show,
+      src
     }
   }
 })
