@@ -10,7 +10,7 @@
       <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
         <div data-aos="fade-down">
           <q-img
-            class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
+            class="tw-w-full lg:tw-w-96 xl:tw-w-120 tw-hidden sm:tw-block image"
             src="~assets/img/eduvacity.png"
           />
         </div>
@@ -23,7 +23,7 @@
               Eduvacity
             </div>
           </div>
-          <div class="tw-bg-projects-bg-color tw-w-full sm:tw-w-80 lg:tw-w-100 -tw-ml-1 sm:-tw-ml-12 tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
+          <div class="tw-bg-projects-bg-color tw-w-full sm:tw-w-80 lg:tw-w-96 xl:tw-w-100 -tw-ml-1 sm:-tw-ml-12 tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
             Eduvacity is a platform that provides people with essential knowledge,
             skills, and experience in industry. We strive to find the gaps in 
             expertise and proficiency.  
@@ -48,7 +48,7 @@
               KUUKA
             </div>
           </div>
-          <div class="tw-bg-projects-bg-color tw-w-full -tw-ml-1 sm:tw-w-80 lg:tw-w-100 card tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-h-44">
+          <div class="tw-bg-projects-bg-color tw-w-full -tw-ml-1 sm:tw-w-80 lg:tw-w-96 xl:tw-w-100 card tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-h-44">
             KUUKA empower your business witn a tecnology driven approach 
             to centralize ordering. Our plattorm simplifies and streamlines 
             the ordering process. 
@@ -62,7 +62,7 @@
         </div> 
         <div data-aos="fade-up">
           <q-img
-            class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
+            class="tw-w-full lg:tw-w-96 xl:tw-w-120 tw-hidden sm:tw-block -tw-ml-1 sm:-tw-ml-12 image"
             src="~assets/img/kuuka.png"
           /> 
         </div>
