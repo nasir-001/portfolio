@@ -68,33 +68,6 @@
         </div>
       </div>
     </div>
-    <div class="sm:tw-mt-24">
-      <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap sm:tw-mr-3 lg:tw-ml-10 lg:tw-mr-20">
-        <div data-aos="fade-down">
-          <q-img
-            class="tw-w-full lg:tw-w-120 tw-hidden sm:tw-block image"
-            src="~assets/img/dashboard.png"
-          />
-        </div>
-        <div data-aos="fade-up" class="">
-          <div class="tw-text-right sm:tw-pr-4 lg:tw-pr-0">
-            <div class="tw-text-primary-text-color">
-              Featured project
-            </div>
-            <div class="tw-text-2xl sm:tw-text-3xl tw-font-medium tw-text-white sm:tw-pt-3">
-              Eduvacity
-            </div>
-          </div>
-          <div class="tw-bg-projects-bg-color tw-w-full sm:tw-w-80 lg:tw-w-100 -tw-ml-1 sm:-tw-ml-12 tw-p-5 lg:tw-p-10 tw-text-gray-400 tw-text-base tw-font-light tw-mt-6 tw-relative tw-h-44">
-            Resonating proficiency is what we are out for, we provide students with
-            mastery at their comfort zone. Anytime anywhere.  
-          </div>
-          <div class="tw-p-4 tw-text-sm tw-text-gray-400 tw-font-mono">
-            FastAPI, Postgresql, Quasar framework, Vuejs, Tailwindcss
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="tw-text-center -tw-ml-4 tw-text-gray-300 tw-text-3xl sm:tw-text-4xl tw-font-medium tw-pt-16 sm:tw-pt-32">
       Other Noteworthy Projects
     </div>
