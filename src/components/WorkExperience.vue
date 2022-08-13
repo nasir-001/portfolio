@@ -8,13 +8,13 @@
     </div>
     <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap lg:tw-ml-10 tw-mt-12 tw-text-gray-300 tw-relative">
       <div class="tw-flex tw-w-full tw-border-b-2 sm:tw-border-b-0 tw-justify-evenly sm:tw-block sm:tw-border-l-2 tw-border-gray-700 sm:tw-w-36 lg:tw-w-44 tw-h-full">
-        <div :class="selected == 'bexil' ? 'tw-border-b-2 sm:tw-border-b-0 sm:tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="lg:tw-pl-6 sm:tw-pl-4 title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-mb-0.5 sm:-tw-ml-0.5" @click="selectBexil">
+        <div :class="selected == 'bexil' ? 'tw-border-b-2 sm:tw-border-b-0 sm:tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="lg:tw-pl-6 sm:tw-pl-4 tw-w-1/3 sm:tw-w-full tw-text-center sm:tw-text-left title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-mb-0.5 sm:-tw-ml-0.5" @click="selectBexil">
           Bexil
         </div>
-        <div :class="selected == 'dyfuso' ? 'tw-border-b-2 sm:tw-border-b-0 sm:tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="lg:tw-pl-6 sm:tw-pl-4 title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-mb-0.5 sm:-tw-ml-0.5" @click="selectKuuka">
+        <div :class="selected == 'dyfuso' ? 'tw-border-b-2 sm:tw-border-b-0 sm:tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="lg:tw-pl-6 sm:tw-pl-4 tw-w-1/3 sm:tw-w-full tw-text-center sm:tw-text-left title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-mb-0.5 sm:-tw-ml-0.5" @click="selectKuuka">
           Dyfuso
         </div>
-        <div :class="selected == 'eduvacity' ? 'tw-border-b-2 sm:tw-border-b-0 sm:tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="lg:tw-pl-6 sm:tw-pl-4 title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-mb-0.5 sm:-tw-ml-0.5" @click="selectEduvacity">
+        <div :class="selected == 'eduvacity' ? 'tw-border-b-2 sm:tw-border-b-0 sm:tw-border-l-2 tw-border-primary-text-color tw-text-primary-text-color' : ''" class="lg:tw-pl-6 sm:tw-pl-4 tw-w-1/3 sm:tw-w-full tw-text-center sm:tw-text-left title hover:tw-bg-gray-700 hover:tw-opacity-75 tw-cursor-pointer tw-h-14 tw-pt-4 tw-text-lg hover:tw-text-primary-text-color -tw-mb-0.5 sm:-tw-ml-0.5" @click="selectEduvacity">
           Eduvacity
         </div>
       </div>

@@ -73,7 +73,7 @@
     </div>
     <div class="tw-flex tw-flex-wrap sm:tw-flex-nowrap -tw-ml-4 sm:tw-mr-3 lg:tw-mr-0 tw-justify-center tw-mt-5">
       <div data-aos="zoom-in">
-        <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+        <div class="sm:tw-w-56 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
           <div class="tw-flex tw-justify-end tw-m-4">
             <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
               <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -94,7 +94,7 @@
         </div>
       </div>
       <div data-aos="zoom-in">
-        <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+        <div class="sm:tw-w-56 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
           <div class="tw-flex tw-justify-end tw-m-4">
             <a href="https://github.com/nasir-001/Django-online-employent-system" target="_blank" rel="noopener noreferrer"> 
               <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -112,7 +112,7 @@
         </div>
       </div>
       <div data-aos="zoom-in">
-        <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+        <div class="sm:tw-w-56 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
           <div class="tw-flex tw-justify-end tw-m-4">
             <a href="https://github.com/nasir-001/attendance-sys-ui" target="_blank" rel="noopener noreferrer"> 
               <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -132,7 +132,7 @@
     </div>
     <div class="tw-flex -tw-ml-4  sm:tw-mr-3 lg:tw-mr-0 tw-justify-center tw-flex-wrap sm:tw-flex-nowrap sm:tw-mt-8">
       <div data-aos="zoom-in">
-        <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+        <div class="sm:tw-w-56 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
           <div class="tw-flex tw-justify-end tw-m-4">
             <a href="https://github.com/nasir-001/Django-Student-Helpline-Portal" target="_blank" rel="noopener noreferrer"> 
               <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -150,7 +150,7 @@
         </div>
       </div>
       <div data-aos="zoom-in">
-        <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+        <div class="sm:tw-w-56 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
           <div class="tw-flex tw-justify-end tw-m-4">
             <a href="https://github.com/nasir-001/E-Commerce" target="_blank" rel="noopener noreferrer"> 
               <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
@@ -168,7 +168,7 @@
         </div>
       </div>
       <div data-aos="zoom-in">
-        <div class="tw-w-96 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
+        <div class="sm:tw-w-56 lg:tw-w-80 tw-bg-projects-bg-color tw-h-80 tw-rounded-md shadow-9 tw-mt-6 tw-mx-1 lg:tw-mx-3 step hover:tw-border-2 hover:tw-border-primary-text-color">
           <div class="tw-flex tw-justify-end tw-m-4">
             <a href="https://github.com/nasir-001/flutter_todo_app" target="_blank" rel="noopener noreferrer"> 
               <q-icon name="fa-brands fa-github" class="tw-mx-2 tw-mt-3 tw-text-primary-text-color" size="sm" />
