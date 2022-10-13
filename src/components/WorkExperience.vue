@@ -21,7 +21,7 @@
       <div data-aos="fade" v-if="selected == 'bexil'" class="lg:tw-ml-8 tw-mt-8 sm:tw-pr-6 sm:tw-mt-0">
         <div>
           <div class="tw-text-2xl sm:tw-text-3xl">
-            Frontend developer <span class="title tw-text-primary-text-color"><a href="https://bexilsolutions.com/" target="_blank" rel="noopener noreferrer">@Bexil</a></span>
+            Fullstack developer <span class="title tw-text-primary-text-color"><a href="https://bexilsolutions.com/" target="_blank" rel="noopener noreferrer">@Bexil</a></span>
           </div>
           <div class="tw-mt-5">
             <div class="tw-flex tw-ml-0.5 tw-mt-2">
