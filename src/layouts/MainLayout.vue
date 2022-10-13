@@ -33,7 +33,7 @@
                 </a>
               </div>
               <div class="tw-mt-2 tw-mx-2 lg:tw-mx-4 tw-rounded-lg tw-w-32 tw-p-0.5 tw-border-2 tw-border-primary-text-color">
-                <a href="https://drive.google.com/file/d/1E-tZeIRumKFmmAv-tQbLkGWtNJ9zVPEw/view" target="_blank">
+                <a href="https://drive.google.com/file/d/1-3JLJ28edyHXajVp_O3ZgEECkXsyOe07/view?usp=sharing" target="_blank">
                   <q-btn color="info" flat class="tw-rounded-lg tw-w-full tw-text-primary-text-color" no-caps label="resume" @click="show = true" />
                 </a>
               </div>
