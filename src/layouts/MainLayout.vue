@@ -2,7 +2,7 @@
   <q-layout view="hHh LpR lff">
     <div class="row tw-justify-center tw-bg-primary-bg-color">
       <div class="col-12 col-xl-9">
-        <q-header class="tw-bg-primary-bg-color tw-h-24" elevated>
+        <q-header reveal class="tw-bg-primary-bg-color tw-h-24" elevated>
           <q-toolbar class="lg:tw-px-10">
             <div class="">
               <q-img
