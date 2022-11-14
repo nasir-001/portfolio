@@ -167,7 +167,7 @@
         <div class="-tw-ml-6 imgBox -tw-mt-6 tw-absolute">
           <q-img
             class="tw-w-64 tw-rounded-lg tw-h-72 tw-pb-6"
-            src="~assets/img/hand.png"
+            src="~assets/img/avatar.jpg"
           />
         </div>
         <div class="tw-w-64 tw-rounded-lg tw-h-72 tw-border-2 tw-border-primary-text-color tw-mr-10"></div>
