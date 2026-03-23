@@ -9,157 +9,79 @@
     <div class="tw-flex tw-justify-start tw-flex-wrap-reverse sm:tw-flex-nowrap lg:tw-mx-10">
       <div data-aos="zoom-in" class="tw-text-gray-400 tw-text-base tw-font-light sm:tw-text-xl tw-w-full">
         <div class="tw-pt-12">
-          Hi👋! I'am Nasir, a software engineer based in Kaduna, Nigeria.
+          Hi👋! I'am Nasir, a Software Engineer based in Abuja, Nigeria.
         </div>
         <div class="tw-pt-4">
-          I have a passion creating websites and web applications. My <br class="tw-hidden lg:tw-block">
-          goal is to build complex products that provide performance and <br class="tw-hidden lg:tw-block">
-          user experience.
+          I have a passion for creating scalable websites and full-stack web applications. My <br class="tw-hidden lg:tw-block">
+          goal is to build complex products that provide performance, security, and an <br class="tw-hidden lg:tw-block">
+          exceptional user experience.
         </div>
         <div class="tw-pt-4">
-          I'm self-motivate, goal-oriented and always eager to learn. <br class="tw-hidden lg:tw-block">
+          I'm self-motivated, goal-oriented and always eager to learn. <br class="tw-hidden lg:tw-block">
         </div>
         <div class="tw-pt-4">
           Here are a few technologies I've been working with recently.
         </div>
-        <div class="tw-flex tw-mt-5">
-          <div class="tw-flex tw-mr-20 sm:tw-mr-12 lg:tw-mr-24">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+        <div class="tw-grid tw-grid-cols-2 md:tw-grid-cols-3 tw-gap-y-4 tw-gap-x-6 tw-mt-6">
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Python
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Python / Node.js</div>
           </div>
-          <div class="tw-flex tw-mr-12 sm:tw-mr-10 lg:tw-mr-24">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Vue js
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Vue.js / Nuxt</div>
           </div>
-          <div class="tw-flex tw-ml-3">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Tailwindcss
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">React / Next.js</div>
           </div>
-        </div>
-        <div class="tw-flex tw-mt-3">
-          <div class="tw-flex tw-mr-20 sm:tw-mr-12 lg:tw-mr-24">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Django
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Flutter</div>
           </div>
-          <div class="tw-flex tw-mr-12 sm:tw-mr-10 lg:tw-mr-24">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              React js
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">TypeScript / JS</div>
           </div>
-          <div class="tw-flex tw-ml-0.5">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Boostrap
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Docker / AWS / GCP</div>
           </div>
-        </div>
-        <div class="tw-flex tw-mt-3">
-          <div class="tw-flex tw-mr-12 sm:tw-mr-4 lg:tw-mr-16">
-            <svg class="tw-w-3 tw-ml-0 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Javascript 
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">PostgreSQL / MongoDB</div>
           </div>
-          <div class="tw-flex tw-ml-3.5 tw-mr-9 sm:tw-mr-6 lg:tw-mr-20">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Quasar js
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Django / FastAPI</div>
           </div>
-          <div class="tw-flex tw-ml-2">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              CSS
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Express / NestJS</div>
           </div>
-        </div>
-        <div class="tw-flex tw-mt-3">
-          <div class="tw-flex tw-mr-12 sm:tw-mr-4 lg:tw-mr-16">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
+          <div class="tw-flex tw-items-center">
+            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current tw-flex-shrink-0" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" xml:space="preserve">
+              <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
             </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Express js
-            </div>
-          </div>
-          <div class="tw-flex tw-ml-4 tw-mr-10 sm:tw-mr-6 lg:tw-mr-20">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
-            </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Nuxt js
-            </div>
-          </div>
-          <div class="tw-flex tw-ml-4 sm:tw-ml-6">
-            <svg class="tw-w-3 tw-text-primary-text-color tw-fill-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-              <g>
-                <path d="M33.299,245v245l423.402-245L33.299,0V245z M190.579,245l202.992,0L70.27,432.077L190.579,245z"/>
-              </g>
-            </svg>
-            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer sm:tw-pl-2">
-              Git/Github
-            </div>
+            <div class="tw-text-xs sm:tw-text-sm sm:tw-cursor-pointer tw-ml-3">Tailwindcss / Quasar</div>
           </div>
         </div>
       </div>
