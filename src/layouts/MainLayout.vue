@@ -1,6 +1,6 @@
 <template>
-  <q-layout view="hHh LpR lff">
-    <div class="row tw-justify-center tw-bg-primary-bg-color">
+  <q-layout view="hHh LpR lff" class="tw-overflow-x-hidden">
+    <div class="row tw-justify-center tw-bg-primary-bg-color tw-overflow-x-hidden">
       <div class="col-12 col-xl-9">
         <q-header reveal class="tw-bg-primary-bg-color tw-h-24" elevated>
           <q-toolbar class="lg:tw-px-10">
@@ -48,8 +48,8 @@
           </q-toolbar>
         </q-header>
 
-        <q-drawer v-model="leftDrawerOpen" show-if-above :width="width" :breakpoint="100" class="tw-bg-primary-bg-color"
-          side="left">
+        <q-drawer v-if="showSideRails" v-model="leftDrawerOpen" show-if-above :width="width" :breakpoint="1024"
+          class="tw-bg-primary-bg-color" side="left">
           <div class="tw-w-full tw-bottom-0 tw-fixed">
             <div class="tw-text-right">
               <div class="tw-mt-6 step">
@@ -74,7 +74,7 @@
           </div>
         </q-drawer>
 
-        <q-drawer v-model="rightDrawerOpen" show-if-above :width="width" :breakpoint="100"
+        <q-drawer v-if="showSideRails" v-model="rightDrawerOpen" show-if-above :width="width" :breakpoint="1024"
           class="tw-bg-primary-bg-color" side="right">
           <div class="tw-bottom-0 tw-fixed tw-w-full">
             <div class="tw-text-left tw-text-primary-text-color hover:tw-text-amber-200 vertical">
@@ -149,6 +149,7 @@ export default defineComponent({
     const $q = useQuasar()
     const show = true
     const src = './resume.pdf'
+    const showSideRails = computed(() => $q.screen.gt.md)
 
     const width = computed(() => {
       return $q.screen.width <= 428
@@ -163,6 +164,7 @@ export default defineComponent({
       leftDrawerOpen,
       rightDrawerOpen,
       rightDrawerItems,
+      showSideRails,
       width,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value
